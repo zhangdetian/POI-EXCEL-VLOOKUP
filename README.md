@@ -1,4 +1,4 @@
-# POI-EXCEL-VLOKKUP
+# POI-EXCEL-VLOOKUP
 POI解析VLOOKUP函数
 
 ### 1.POI获取excel时，VLOOKUP函数解析出来的是公式而不是值
