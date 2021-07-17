@@ -7,7 +7,7 @@ POI解析VLOOKUP函数
 
 用POI的HSSFWorkbook获取xls文件不足以解决现在项目的问题，它只支持老版本的excel文件，由于excel（xls文件）的<u>**下拉框**有兼容性问题</u>，只能用新版的EXCEL2007版本以上，它支持下拉框。
 
-<img src="C:\Users\longshine\AppData\Roaming\Typora\typora-user-images\image-20210717112518751.png" alt="image-20210717112518751" style="zoom: 50%;" />
+<img src="image/image-20210717112518751.png" alt="image-20210717112518751" style="zoom: 50%;" />
 
 #### （2）xlsx不支持解析，出现空指针异常问题
 
@@ -58,7 +58,7 @@ switch (cell.getCellType()) {
 
 `XSSFCell.CELL_TYPE_FORMULA`是公式类，`cell.getCellFormula()`是解析VLOOKUP函数的方法，走断点是可以走到这个`case`里面的，但是`value`还是下面这样。
 
-![image-20210717114913508](C:\Users\longshine\AppData\Roaming\Typora\typora-user-images\image-20210717114913508.png)
+![image-20210717114913508](image/image-20210717114913508.png)
 
 很头疼的又试了好多方法，都不行。去google 看看发现一篇有用的帖子。直接粘出来了。
 
