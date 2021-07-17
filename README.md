@@ -60,7 +60,7 @@ switch (cell.getCellType()) {
 
 ![image-20210717114913508](image/image-20210717114913508.png)
 
-很头疼的又试了好多方法，都不行。去google 看看发现一篇有用的帖子。直接粘出来了。
+很头疼的又试了好多方法，都不行。去google上发现一篇有用的帖子。直接粘出来了。
 
 ```java
 switch (cell.getCellType()) {
